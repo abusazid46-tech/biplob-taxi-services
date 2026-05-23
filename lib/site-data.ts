@@ -32,12 +32,12 @@ export const popularRoutes = [
 ];
 
 export const fleet = [
-  { name: "Innova", description: "Comfortable premium family taxi for long-distance Assam and Northeast trips." },
-  { name: "Ertiga", description: "Practical multi-seat cab for family travel, airport pickup and round trips." },
-  { name: "Dzire", description: "Efficient sedan for inter-district rides, one-way taxi and daily travel." },
-  { name: "SUV", description: "Confident option for hilly routes, luggage-heavy trips and long outstation routes." },
-  { name: "Sedan", description: "Clean, comfortable city and highway taxi for business and personal travel." },
-  { name: "Tempo Traveller", description: "Group travel vehicle for tours, weddings, events and Northeast packages." }
+  { name: "Innova", image: "/fleet/innova.avif", description: "Comfortable premium family taxi for long-distance Assam and Northeast trips." },
+  { name: "Ertiga", image: "/fleet/ertiga.avif", description: "Practical multi-seat cab for family travel, airport pickup and round trips." },
+  { name: "Dzire", image: "/fleet/dzire.avif", description: "Efficient sedan for inter-district rides, one-way taxi and daily travel." },
+  { name: "SUV", image: "/fleet/suv.webp", description: "Confident option for hilly routes, luggage-heavy trips and long outstation routes." },
+  { name: "Sedan", image: "/fleet/sedan.jpg", description: "Clean, comfortable city and highway taxi for business and personal travel." },
+  { name: "Tempo Traveller", image: "/fleet/tempo-traveller.png", description: "Group travel vehicle for tours, weddings, events and Northeast packages." }
 ];
 
 export const tourPackages = [

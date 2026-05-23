@@ -1,4 +1,5 @@
 import { ArrowRight, BadgeCheck, Car, Clock, MapPinned, MessageCircle, PlaneLanding, Route, ShieldCheck, Sparkles, Star, Users } from "lucide-react";
+import Image from "next/image";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { InquiryForm } from "@/components/InquiryForm";
 import { PageHero } from "@/components/PageHero";
@@ -115,9 +116,17 @@ export default function Home() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {fleet.map((vehicle) => (
               <AnimatedSection key={vehicle.name} className="rounded-md border border-zinc-200 bg-white p-5 shadow-sm transition hover:shadow-lift">
-                <div className="flex h-44 items-end rounded-md bg-zinc-950 p-5 text-white mountain-panel">
-                  <h3 className="text-2xl font-black">{vehicle.name}</h3>
+                <div className="relative h-44 overflow-hidden rounded-md border border-zinc-100 bg-white">
+                  <Image
+                    src={vehicle.image}
+                    alt={`${vehicle.name} taxi available from Biplob Taxi Services`}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-contain p-3"
+                    priority={vehicle.name === "Innova"}
+                  />
                 </div>
+                <h3 className="mt-4 text-2xl font-black text-brand-dark">{vehicle.name}</h3>
                 <p className="mt-4 text-sm leading-6 text-zinc-600">{vehicle.description}</p>
                 <WhatsAppLink className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-red" message={`Hello Biplob Taxi Services, I want to book a ${vehicle.name} taxi from [Pickup] to [Destination] on [Date].`}>
                   Check availability <ArrowRight size={16} />
