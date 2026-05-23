@@ -11,7 +11,7 @@ export function InquiryForm() {
 
   function submitInquiry(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const message = `Hello Biplob Taxi Services, I want to book a taxi from ${pickup || "[Pickup]"} to ${destination || "[Destination]"} on ${date || "[Date]"}.`;
+    const message = `Hello Biplob Taxi Service, I want to book a taxi from ${pickup || "[Pickup]"} to ${destination || "[Destination]"} on ${date || "[Date]"}.`;
     window.open(whatsappUrl(message), "_blank", "noopener,noreferrer");
   }
 

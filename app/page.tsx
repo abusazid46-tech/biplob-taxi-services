@@ -30,7 +30,7 @@ export default function Home() {
               Based in Sonapur, Lakhimpur, Assam
             </div>
             <h1 className="text-4xl font-black leading-tight tracking-normal sm:text-5xl lg:text-6xl">
-              Biplob Taxi Services
+              Biplob Taxi Service
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-white/88 sm:text-xl">
               Premium taxi service across Assam and Northeast India for airport pickup, outstation trips, tour packages and daily rentals.
@@ -38,7 +38,7 @@ export default function Home() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <WhatsAppLink
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-brand-red px-6 py-4 text-base font-bold text-white shadow-lift transition hover:bg-red-700 focus-ring"
-                message="Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date]."
+                message="Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date]."
               >
                 <MessageCircle size={20} />
                 Book on WhatsApp
@@ -71,7 +71,7 @@ export default function Home() {
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand-red">Popular routes</p>
               <h2 className="mt-2 text-3xl font-black text-brand-dark sm:text-4xl">Ready routes across the region</h2>
             </div>
-            <WhatsAppLink className="inline-flex items-center gap-2 font-bold text-brand-red" message="Hello Biplob Taxi Services, please share taxi fare and availability for a popular Assam/Northeast route.">
+            <WhatsAppLink className="inline-flex items-center gap-2 font-bold text-brand-red" message="Hello Biplob Taxi Service, please share taxi fare and availability for a popular Assam/Northeast route.">
               Ask fare now <ArrowRight size={18} />
             </WhatsAppLink>
           </AnimatedSection>
@@ -92,7 +92,7 @@ export default function Home() {
             <AnimatedSection>
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-red-300">Why choose us</p>
               <h2 className="mt-2 text-3xl font-black sm:text-4xl">A local taxi partner built for long-distance Northeast travel.</h2>
-              <p className="mt-4 text-white/70">Biplob Taxi Services focuses on trustworthy communication, clean vehicles and practical route support for families, tourists and business travelers.</p>
+              <p className="mt-4 text-white/70">Biplob Taxi Service focuses on trustworthy communication, clean vehicles and practical route support for families, tourists and business travelers.</p>
             </AnimatedSection>
             <div className="grid gap-4 sm:grid-cols-2">
               {features.map((feature) => (
@@ -119,7 +119,7 @@ export default function Home() {
                 <div className="relative h-44 overflow-hidden rounded-md border border-zinc-100 bg-white">
                   <Image
                     src={vehicle.image}
-                    alt={`${vehicle.name} taxi available from Biplob Taxi Services`}
+                    alt={`${vehicle.name} taxi available from Biplob Taxi Service`}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                     className="object-contain p-3"
@@ -128,7 +128,7 @@ export default function Home() {
                 </div>
                 <h3 className="mt-4 text-2xl font-black text-brand-dark">{vehicle.name}</h3>
                 <p className="mt-4 text-sm leading-6 text-zinc-600">{vehicle.description}</p>
-                <WhatsAppLink className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-red" message={`Hello Biplob Taxi Services, I want to book a ${vehicle.name} taxi from [Pickup] to [Destination] on [Date].`}>
+                <WhatsAppLink className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-red" message={`Hello Biplob Taxi Service, I want to book a ${vehicle.name} taxi from [Pickup] to [Destination] on [Date].`}>
                   Check availability <ArrowRight size={16} />
                 </WhatsAppLink>
               </AnimatedSection>
@@ -222,7 +222,7 @@ export default function Home() {
         title="Send your pickup, destination and date on WhatsApp."
         text="Get a fast response for vehicle availability, route guidance and taxi fare details."
         ctaLabel="Book on WhatsApp"
-        ctaMessage="Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date]."
+        ctaMessage="Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date]."
         icon={Users}
       />
     </>

@@ -3,7 +3,7 @@ import { phone } from "@/lib/site-data";
 import { WhatsAppLink } from "./WhatsAppLink";
 
 export function StickyCtas() {
-  const message = "Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date].";
+  const message = "Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date].";
 
   return (
     <>

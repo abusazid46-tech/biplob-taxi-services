@@ -1,4 +1,4 @@
-# Deploying Biplob Taxi Services to Vercel
+# Deploying Biplob Taxi Service to Vercel
 
 This project is ready for Vercel as a Next.js app.
 

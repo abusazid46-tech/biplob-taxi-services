@@ -76,12 +76,12 @@ export const galleryImages = [
 
 export const faqs = [
   {
-    question: "How do I book a taxi with Biplob Taxi Services?",
+    question: "How do I book a taxi with Biplob Taxi Service?",
     answer: "Tap Book on WhatsApp, share your pickup, destination and date, and the team will confirm availability and trip details."
   },
   {
     question: "Do you provide taxi service outside Assam?",
-    answer: "Yes. Biplob Taxi Services operates across Assam and Northeast India, including Meghalaya and Arunachal routes."
+    answer: "Yes. Biplob Taxi Service operates across Assam and Northeast India, including Meghalaya and Arunachal routes."
   },
   {
     question: "Can I book airport pickup or drop?",

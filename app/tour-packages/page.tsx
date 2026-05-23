@@ -30,7 +30,7 @@ export default function TourPackagesPage() {
                 <p className="mt-4 text-sm font-bold uppercase tracking-[0.18em] text-zinc-500">{tour.duration}</p>
                 <h2 className="mt-2 text-2xl font-black text-brand-dark">{tour.title}</h2>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">{tour.text}</p>
-                <WhatsAppLink className="mt-5 inline-flex rounded-md bg-brand-red px-4 py-3 text-sm font-bold text-white" message={`Hello Biplob Taxi Services, I want to enquire about the ${tour.title} taxi package for [Date].`}>
+                <WhatsAppLink className="mt-5 inline-flex rounded-md bg-brand-red px-4 py-3 text-sm font-bold text-white" message={`Hello Biplob Taxi Service, I want to enquire about the ${tour.title} taxi package for [Date].`}>
                   Enquire on WhatsApp
                 </WhatsAppLink>
               </article>

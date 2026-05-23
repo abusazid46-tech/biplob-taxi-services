@@ -40,7 +40,7 @@ export function Header() {
           </a>
           <WhatsAppLink
             className="inline-flex items-center gap-2 rounded-md bg-brand-red px-4 py-2 text-sm font-bold hover:bg-red-700 focus-ring"
-            message="Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date]."
+            message="Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date]."
           >
             <MessageCircle size={16} />
             Book
@@ -73,7 +73,7 @@ export function Header() {
             <a href={`tel:+91${phone}`} className="rounded-md border border-white/15 px-4 py-3 text-center text-sm font-bold">
               Call Now
             </a>
-            <WhatsAppLink className="rounded-md bg-brand-red px-4 py-3 text-center text-sm font-bold" message="Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date].">
+            <WhatsAppLink className="rounded-md bg-brand-red px-4 py-3 text-center text-sm font-bold" message="Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date].">
               WhatsApp
             </WhatsAppLink>
           </div>

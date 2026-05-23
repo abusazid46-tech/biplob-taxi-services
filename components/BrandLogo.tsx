@@ -8,7 +8,7 @@ export function BrandLogo({ className = "h-12 w-12" }: BrandLogoProps) {
       className={className}
       viewBox="0 0 96 96"
       role="img"
-      aria-label="Biplob Taxi Services logo"
+      aria-label="Biplob Taxi Service logo"
       xmlns="http://www.w3.org/2000/svg"
     >
       <rect width="96" height="96" rx="18" fill="#09090b" />

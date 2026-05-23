@@ -7,7 +7,7 @@ import { baseLocation } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Biplob Taxi Services, a reliable taxi service based in Sonapur, Lakhimpur, Assam serving Assam and Northeast India."
+  description: "Learn about Biplob Taxi Service, a reliable taxi service based in Sonapur, Lakhimpur, Assam serving Assam and Northeast India."
 };
 
 const values = [
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About us"
         title="A trusted local taxi service for Assam and Northeast India."
-        text={`Biplob Taxi Services is based in ${baseLocation}, providing professional cab booking for safe, reliable and affordable travel.`}
+        text={`Biplob Taxi Service is based in ${baseLocation}, providing professional cab booking for safe, reliable and affordable travel.`}
         icon={MapPinned}
       />
       <section className="py-16 sm:py-20">

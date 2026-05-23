@@ -12,7 +12,7 @@ type PageHeroProps = {
   icon?: LucideIcon;
 };
 
-export function PageHero({ eyebrow, title, text, ctaLabel = "Book on WhatsApp", ctaMessage = "Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date].", icon: Icon = MessageCircle }: PageHeroProps) {
+export function PageHero({ eyebrow, title, text, ctaLabel = "Book on WhatsApp", ctaMessage = "Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date].", icon: Icon = MessageCircle }: PageHeroProps) {
   return (
     <section className="bg-zinc-950 py-16 text-white sm:py-20">
       <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[0.95fr_0.55fr] lg:px-8">

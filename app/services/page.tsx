@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="Cab booking for airport, outstation, tours and rentals."
-        text="Choose Biplob Taxi Services for dependable Assam taxi booking and Northeast taxi service with WhatsApp-first confirmation."
+        text="Choose Biplob Taxi Service for dependable Assam taxi booking and Northeast taxi service with WhatsApp-first confirmation."
         icon={MessageCircle}
       />
       <section className="py-16 sm:py-20">
@@ -29,7 +29,7 @@ export default function ServicesPage() {
                 <BadgeCheck className="text-brand-red" />
                 <h2 className="mt-4 text-xl font-black text-brand-dark">{service}</h2>
                 <p className="mt-3 text-sm leading-6 text-zinc-600">Available through direct phone and WhatsApp booking for Assam and Northeast India routes.</p>
-                <WhatsAppLink className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-red" message={`Hello Biplob Taxi Services, I need ${service} from [Pickup] to [Destination] on [Date].`}>
+                <WhatsAppLink className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-red" message={`Hello Biplob Taxi Service, I need ${service} from [Pickup] to [Destination] on [Date].`}>
                   Enquire now <ArrowRight size={16} />
                 </WhatsAppLink>
               </div>

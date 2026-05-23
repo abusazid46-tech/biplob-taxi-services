@@ -12,7 +12,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <BrandLogo className="h-12 w-12 shrink-0" />
             <div>
-              <p className="font-black">Biplob Taxi Services</p>
+              <p className="font-black">Biplob Taxi Service</p>
               <p className="text-sm text-white/60">Taxi service in Assam and Northeast India</p>
             </div>
           </div>
@@ -21,7 +21,7 @@ export function Footer() {
           </p>
           <div className="mt-5 flex flex-col gap-3 text-sm text-white/75">
             <a href={`tel:+91${phone}`} className="flex items-center gap-2 hover:text-white"><Phone size={16} /> {phone}</a>
-            <WhatsAppLink className="flex items-center gap-2 hover:text-white" message="Hello Biplob Taxi Services, I want to book a taxi from [Pickup] to [Destination] on [Date]."><MessageCircle size={16} /> WhatsApp booking</WhatsAppLink>
+            <WhatsAppLink className="flex items-center gap-2 hover:text-white" message="Hello Biplob Taxi Service, I want to book a taxi from [Pickup] to [Destination] on [Date]."><MessageCircle size={16} /> WhatsApp booking</WhatsAppLink>
             <p className="flex items-center gap-2"><MapPin size={16} /> {baseLocation}</p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-10 max-w-7xl border-t border-white/10 px-4 pt-6 text-sm text-white/50 sm:px-6 lg:px-8">
-        &copy; 2026 Biplob Taxi Services. Phase 1 lead-generation website.
+        &copy; All Rights Reseved To Biplob Taxi Service | Developed and mantained By Jajabor AI
       </div>
     </footer>
   );

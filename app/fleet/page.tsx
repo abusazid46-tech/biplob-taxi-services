@@ -41,7 +41,7 @@ export default function FleetPage() {
                   <p className="mt-3 text-sm leading-6 text-zinc-600">{vehicle.description}</p>
                   <div className="mt-5 flex items-center justify-between gap-4">
                     <span className="inline-flex items-center gap-2 text-sm font-bold text-zinc-500"><Users size={16} /> Ask seating</span>
-                    <WhatsAppLink className="rounded-md bg-brand-red px-4 py-2 text-sm font-bold text-white" message={`Hello Biplob Taxi Services, is ${vehicle.name} available for [Pickup] to [Destination] on [Date]?`}>
+                    <WhatsAppLink className="rounded-md bg-brand-red px-4 py-2 text-sm font-bold text-white" message={`Hello Biplob Taxi Service, is ${vehicle.name} available for [Pickup] to [Destination] on [Date]?`}>
                       Book
                     </WhatsAppLink>
                   </div>
