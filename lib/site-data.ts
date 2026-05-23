@@ -58,11 +58,11 @@ export const testimonials = [
 export const galleryImages = [
   {
     title: "Tea garden routes",
-    url: "https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&w=900&q=80"
+    url: "/gallery/tea-garden-routes.jpg"
   },
   {
     title: "Northeast hills",
-    url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+    url: "/gallery/northeast-hills.jpg"
   },
   {
     title: "Long-distance taxi travel",
@@ -70,7 +70,7 @@ export const galleryImages = [
   },
   {
     title: "Airport and city pickup",
-    url: "https://images.unsplash.com/photo-1564419434663-c4996736381b?auto=format&fit=crop&w=900&q=80"
+    url: "/gallery/airport-city-pickup.jpg"
   }
 ];
 
